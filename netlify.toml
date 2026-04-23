@@ -1,5 +1,5 @@
 [build]
-  command = "pip install -r requirements.txt"
+  command = "pip install -r requirements.txt;fastapi run"
   publish = "" # This can be an empty folder if you have no frontend
 
 [deploy]
