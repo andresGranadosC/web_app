@@ -2,5 +2,9 @@
   command = "pip install -r requirements.txt"
   publish = "" # This can be an empty folder if you have no frontend
 
+[deploy]
+  command = "fastapi run"
+  publish = "" # This can be an empty folder if you have no frontend
+
 [functions]
   directory = "functions" # Point to where your handler is located
