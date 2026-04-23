@@ -2,7 +2,7 @@
   command = "pip install -r requirements.txt"
   publish = "" # This can be an empty folder if you have no frontend
 
-[context.deploy-preview]
+[context.production]
   command = "fastapi run"
 
 [context.deploy-preview]
