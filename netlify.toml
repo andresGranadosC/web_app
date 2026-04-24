@@ -2,11 +2,5 @@
   command = "pip install 'fastapi[standard]'"
   publish = "."
 
-[context.production]
-  command = "fastapi run"
-
-[context.main]
-  command = "fastapi run"
-
 [functions]
   directory = "functions" # Point to where your handler is located
