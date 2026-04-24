@@ -1,6 +1,6 @@
 [build]
-  command = "pip install -r requirements.txt"
-  publish = "" # This can be an empty folder if you have no frontend
+  command = "pip install 'fastapi[standard]' && fastapi run"
+  publish = "."
 
 [context.production]
   command = "fastapi run"
