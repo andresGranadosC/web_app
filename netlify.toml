@@ -1,5 +1,5 @@
 [build]
-  command = "pip install 'fastapi[standard]' && fastapi run"
+  command = "pip install 'fastapi[standard]'"
   publish = "."
 
 [context.production]
