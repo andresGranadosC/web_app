@@ -5,9 +5,6 @@
 [context.production]
   command = "fastapi run"
 
-[context.deploy-preview]
-  command = "fastapi run"
-
 [context.main]
   command = "fastapi run"
 
