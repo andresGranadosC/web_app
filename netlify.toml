@@ -1,10 +1,15 @@
 [build]
-  command = "pip install -r requirements.txt;fastapi run"
+  command = "pip install -r requirements.txt"
   publish = "" # This can be an empty folder if you have no frontend
 
-[deploy]
+[context.production]
   command = "fastapi run"
-  publish = "" # This can be an empty folder if you have no frontend
+
+[context.deploy-preview]
+  command = "fastapi run"
+
+[context.main]
+  command = "fastapi run"
 
 [functions]
   directory = "functions" # Point to where your handler is located
